@@ -1,0 +1,104 @@
+@import "../../assets/scss/colors";
+@import "../../assets/scss/_mixins";
+
+.header {
+  background-color: $yellow;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .name-store {
+    color: $brown;
+    font-size: 1.6rem;
+  }
+  &-button {
+    background-color: $dark_beige;
+    height: 30px;
+    min-width: 100px;
+    // border: 1px solid $orange;
+  }
+
+  &-button--prifile {
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    // border: 1px solid $orange;
+    .header-button__img {
+      height: 100%;
+    }
+
+    .header-button--prifile {
+      position: relative;
+    }
+  }
+  .product__sum {
+    margin: 3px;
+    color: $brown;
+  }
+
+  .profile-hidden-block {
+    display: flex;
+    position: absolute;
+    border: 1px solid red;
+    width: 220px;
+    height: 30px;
+
+    // top: 40px;
+    // left: calc(50% - (146px / 2));
+    // // left: calc(146px / 2);
+  }
+
+  .search {
+    height: 20px;
+    // font-size: 1.2rem;
+    margin-right: 5px;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    color: $red;
+    font-style: italic;
+    border-radius: 10px;
+    height: 26px;
+    border: 1px solid $orange;
+    background-color: $light_beige;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: $orange;
+}
+
+// .header-button__img {
+//   width: 20px;
+//   height: 20px;
+// }
+
+// .header-button__profile {
+//   &__img {
+//     width: 20px;
+//     height: 20px;
+//   }
+
+//   .header-button {
+//     display: flex;
+//     height: 40px;
+//     width: 100px;
+//   }
+// }
+// }
+
+// &__img {
+//   width: 20px;
+//   height: 20px;
+// }
+// .header-button {
+//   height: 40px;
+//   width: 40px;
+// }
+
+// .header-button__img {
+//   margin-right: 20px;
+//   width: 20px;
+//   height: 20px;
+// }
